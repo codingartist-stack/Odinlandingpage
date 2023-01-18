@@ -191,6 +191,12 @@
     padding: 100px 25px;
     gap: 20px;
 }
+.quotebox h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    /* border: 2px solid maroon; */
+}
 
 .quotebox p {
     font-size: 18px;
@@ -198,11 +204,32 @@
     /* border: 2px solid green; */
 }
 
-.quotebox h3 {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    /* border: 2px solid maroon; */
+
+
+.call2actioncontainer {
+    display: flex;
+    width: 100%;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+.call2actionbox {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 40px 150px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    gap: 60px;
+}
+
+.actionbold {
+    font-weight: bold;
+}
+
+.actionbutton {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
 }
 
  /* FOOTER */
