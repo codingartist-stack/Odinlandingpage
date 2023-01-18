@@ -22,6 +22,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -57,33 +60,43 @@
 }
 
 .herotextbox {
-    border: 2px solid red;
+    /* border: 2px solid red; use borders to see the box and trouble shoot */
     display: flex;
     align-items: center;
     width: 1200px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px;
 }
 
 .herotext {
-    border: 2px solid green; /* use borders to see the box and trouble shoot */
-    width: 500px;
+    /* border: 2px solid green;  use borders to see the box and trouble shoot */
+    width: 100%;
+    flex: 1 1 0%;
 }
 
 .heromaintext {
     font-size: 48px;
     font-weight: bolder;
+    
 }
 
 .heroimage {
+    /* border: 2px solid blue; use borders to see the box and trouble shoot */
     background-color: grey;
-    width: 500px;
-    border: 2px solid blue;
+    display: flex;
+    width: min-content;
+    height: 100%;
+    flex: 1 1 0%;
     justify-content: center;
+    align-items: center;
 }
+
 
 .button {
     background-color: #3882f6;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    width: max-content;
 }
