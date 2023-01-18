@@ -78,7 +78,12 @@
 .heromaintext {
     font-size: 48px;
     font-weight: bolder;
+    padding-right: 20px;
     
+}
+
+.herosubtext {
+    padding-right: 20px;
 }
 
 .heroimage {
@@ -110,32 +115,60 @@
 
 /* RANDOMINFO */
 .moreinfocontainer {
+    /* border: 2px solid rgb(0, 255, 140); */
     display: flex;
+    width: 100%;
+    padding: 50px 0;
     justify-content: center;
-    padding: 20px 0;
-    border: 2px solid blue;
-    align-items: center;
+    
 
+}
+
+.moreinfobox {
+    /* border: 2px solid magenta; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
 }
 
 .moreinfoheading {
     font-size: 36px;
     font-weight: bolder;
+    color: #1F2937;
 }
 
 .moreinfo-box {
     /* border: 2px solid blue; use borders to see the box and trouble shoot */
     display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    border: 2px solid blue;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 40px;
+    width: auto;
+    flex-wrap: wrap;
 
+}
+
+.moreinfo-item {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-item {
     border: 2px solid #3882f6;
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.image-text {
+    text-align: center;
+    padding: 10px 0;
 }
 
  /* FOOTER */
