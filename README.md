@@ -1,7 +1,7 @@
 # Odinlandingpage
 Odin project: landing page
 
-This project wants us to recreate a landing page using the image provided. 
+This project wants us to recreate a landing page using the image provided. I have to admit that it took me a about half way through to get the hang of things and to be able to select the items I wanted. going forward I want to be less afraid of using normal html tags to select items. 
 
 
 Instructions as of 1/17/23
