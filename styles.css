@@ -92,10 +92,12 @@
     align-items: center;
 }
 
-/* BUTTON */
+/* BUTTON or CALL TO ACTION*/
 .button {
     background-color: #3882f6;
-    padding: 10px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 5px;
     color: #E5E7EB;
     width: max-content;
@@ -104,4 +106,46 @@
 
 .button:hover {
     background-color: #c622b8;
+}
+
+/* RANDOMINFO */
+.moreinfocontainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border: 2px solid blue;
+    align-items: center;
+
+}
+
+.moreinfoheading {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.moreinfo-box {
+    /* border: 2px solid blue; use borders to see the box and trouble shoot */
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border: 2px solid blue;
+
+}
+
+.image-item {
+    border: 2px solid #3882f6;
+    width: 60px;
+    height: 60px;
+}
+
+ /* FOOTER */
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 100%;
+    
 }
