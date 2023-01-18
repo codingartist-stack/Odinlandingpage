@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -169,6 +169,28 @@
 .image-text {
     text-align: center;
     padding: 10px 0;
+}
+
+/* QUOTE BOX */ 
+.quotecontainer {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
  /* FOOTER */
