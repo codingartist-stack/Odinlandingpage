@@ -92,11 +92,16 @@
     align-items: center;
 }
 
-
+/* BUTTON */
 .button {
     background-color: #3882f6;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
     color: #E5E7EB;
     width: max-content;
+    
+}
+
+.button:hover {
+    background-color: #c622b8;
 }
